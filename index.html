@@ -26,6 +26,16 @@
                     $('#title').text(data.message)
                 })
         })
+
+        $('button#send').on('click', () => {
+            let messageInputValue = $('input#message-input').val()
+            axios.post('http://localhost:3000', {
+                message: messageInputValue
+            }).then((response)=>{
+                let data = response.data
+                $('#title').text(data.message)
+            })
+        })
     </script>
 </body>
 </html>
