@@ -6,6 +6,8 @@ YANG PERTAMA
 
 
 YANG KEDUA
+
+
 ![rpl2](https://user-images.githubusercontent.com/46397825/79198344-88c6a700-7e5d-11ea-946a-b720fef221a4.JPG)
 
 
