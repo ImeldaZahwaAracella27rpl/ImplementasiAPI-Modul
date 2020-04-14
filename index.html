@@ -27,7 +27,7 @@
                 })
         })
 
-        $('button#send').on('click', () => {
+        $('button').on('click', () => {
             let messageInputValue = $('input#message-input').val()
             axios.post('http://localhost:3000', {
                 message: messageInputValue
